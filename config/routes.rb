@@ -1,4 +1,15 @@
 JeRecrute::Application.routes.draw do
+
+
+    root to: 'static_pages#acceuil'
+    
+
+    match '/apropos',    to: 'static_pages#apropos'
+    
+    match '/contact', to: 'static_pages#contact'
+
+  
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
