@@ -2,7 +2,7 @@ class StaticPagesController < ApplicationController
   def acceuil
   end
 
-  def apropos
+  def offresemploi
   end
 
   def contact

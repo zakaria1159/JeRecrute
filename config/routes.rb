@@ -1,10 +1,12 @@
 JeRecrute::Application.routes.draw do
 
 
+  get "users/new"
+
     root to: 'static_pages#acceuil'
     
 
-    match '/apropos',    to: 'static_pages#apropos'
+    match 'offresemploi',    to: 'static_pages#offresemploi'
     
     match '/contact', to: 'static_pages#contact'
 
