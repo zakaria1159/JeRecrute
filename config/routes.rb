@@ -6,8 +6,7 @@ JeRecrute::Application.routes.draw do
     root to: 'static_pages#acceuil'
     
 
-    match 'offresemploi',    to: 'static_pages#offresemploi'
-    
+    match '/offresemploi',    to: 'static_pages#offresemploi'
     match '/contact', to: 'static_pages#contact'
 
   
