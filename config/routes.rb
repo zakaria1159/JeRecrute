@@ -1,9 +1,10 @@
 JeRecrute::Application.routes.draw do
   resources :users
 
-  match '/signup',  to: 'users#new'
+  
 
     root to: 'static_pages#acceuil'
+    match '/signup',  to: 'users#new'
     
 
     match '/offresemploi',    to: 'static_pages#offresemploi'
